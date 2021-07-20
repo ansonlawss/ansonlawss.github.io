@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/image.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <link rel="stylesheet" href="../css/dark.css">
+
+    <audio id="bgm" controls autoplay loop style="display: none;">
+        <source src="../mp3/NyanCat.mp3" type="audio/mpeg">  
+    </audio>
+    <script src="../js/BaseVolume.js"></script>
+</head>
+
+<body>
+    <img class="center" src="../src/Standard_Cricket.jpg" alt="Standard Cricket">
+
+    <br>
+
+    <p class="subtitle">Rules</p>
+
+    <p class="subtitle">The six numbers and bull are the target!</p>
+    <p class="content">Only the areas of 15, 16, 17, 18, 19, 20, and bull are the target.
+        Be careful because if you land anywhere else, you won’t get any points!</p>
+
+    <p class="subtitle">Aim to open before your opponent!</p>
+
+    <p class="content">If you hit any of the six numbers or bull, a mark is added to that number.
+        Once there are three marks, the number is open, and after that, hitting that number will score the player
+        points.
+    </p>
+
+    <p class="content"><img src="../src/Standard_Cricket_Single.jpg">: 1 mark (Single)</p>
+    <p class="content"><img src="../src/Standard_Cricket_Double.jpg">: 2 marks (Double x 1)</p>
+    <p class="content"><img src="../src/Standard_Cricket_Triple.jpg">: 3 marks (Triple x 1, or Double x 1 + Single x 1,
+        or
+        Single × 3)</p>
+
+    <p class="subtitle">Act fast when your opponent opens a number!</p>
+
+    <p class="content">
+        If your opponent opens a number, opponent will be able to score on that number.
+        In order to prevent your opponent from scoring points, you must close that number by getting three
+        marks. If the number is closed, oppenent can no longer score points on that closed area.
+        Before spending time closing numbers, form a strategy so that you can open numbers first!
+    </p>
+
+    <hr>
+
+    <p class="subtitle">ONE POINT!</p>
+
+    <p class="subtitle">First securely hit singles!</p>
+
+    <p class="content">To quickly close numbers, it is okay to aim for doubles and triples, but the basic strategy is to
+        first securely hit three singles.
+        Once you are used to the game, you can use doubles and triples to aim for higher scores!
+        If your opponent has closed a number, you must determine whether you should work to close that
+        number or work on getting more points depending on how the game is progressing.
+        You must not only consider the point gap between you and your opponent and the number of numbers
+        closed, but also the difference in skills and the numbers you are good at hitting and those you are
+        not.</p>
+
+    <p class="subtitle">Secret to winning!</p>
+
+    <p class="subtitle">Attack in a horizontal line!</p>
+
+    <p class="content">The basic strategy is to aim to mark numbers with high points in order from 20 to 19, then 18,
+        but
+        since the position changes significantly as you count down it can be difficult to aim.
+        So a good strategy is to work in a horizontal line. If the order is 20,18,19, and 17, you are just
+        shifting your aim horizontally, so you can continue to aim for marks!
+        16,19,17, and 15 are the lower horizontal line and easier to aim for, so another strategy might be
+        to aim for this line first.
+        However, if you focus only on the numbers to close, you tend to forget the number of rounds, so be
+        aware of the designated number of rounds and play accordingly!
+        STANDARD CRICKET is a deep and interesting game.
+        You cannot win with a set pattern, so change your strategy depending on your opponent and aim to
+        win!
+    </p>
+
+    <a href="../html/index.html" class=" floating-btn ">
+        <img src="../src/home.png" alt="">
+    </a>
+
+    <div>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label class="label" for="checkbox">
+            <img class="fas fa-moon" src="../src/moon.png">
+            
+            <img class="fas fa-sun" src="../src/sun.png">
+            
+            <div class="ball"></div>
+        </label>
+    </div>
+    <script src="../js/dark.js"></script>
+</body>
+
+</html>
