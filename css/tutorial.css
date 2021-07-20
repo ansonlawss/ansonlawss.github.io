@@ -1,0 +1,40 @@
+.tutorial table {
+    width: 100%;
+}
+
+.tutorial  tr td img {
+    height: 30px;
+    width:  30px;
+}
+
+.text{
+    font-family: tutorial;
+    font-size: 40px;
+    /* Anson chose */
+    color: navy;
+}
+
+.design {
+    border-left: solid 1px navy;
+    border-right: solid 1px navy;
+}
+
+@font-face{
+    font-family: tutorial;
+    src: url(../Fonts/KGSummerSunshineShadow.ttf);
+}
+
+.htp{
+    position: relative;
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    border-radius: 25%;
+    background: #4EE2EC;
+    box-shadow: 0 5px 15px -5px #00000070;
+}
+.htp img {
+    max-width: 100%;
+    height: auto;
+}
+

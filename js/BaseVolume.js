@@ -1,0 +1,1 @@
+document.getElementById("bgm").volume = 0.05;

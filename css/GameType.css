@@ -1,0 +1,18 @@
+.game_type table {
+    width: 100%;
+    text-align: center;
+}
+.game_type  table tr td img {
+    height: 150px;
+    width:  150px;
+}
+.design {
+    border-left: solid 1px navy;
+    border-right: solid 1px navy;
+}
+.text{
+    font-family: tutorial;
+    font-size: 40px;
+    /* Anson chose */
+    color: navy;
+}
