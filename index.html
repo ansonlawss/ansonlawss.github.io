@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darts Supreme Academy</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/tutorial.css">
+    <link rel="stylesheet" href="../css/GameType.css">
+    <link rel="stylesheet" href="../css/equipment.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link rel="stylesheet" href="../css/Quest.css">
+    <link rel="icon" href="../src/dart icon 3.png">
+
+    <audio id="bgm" controls autoplay loop style="display: none;">
+        <source src="../mp3/NyanCat.mp3" type="audio/mpeg">  
+    </audio>
+    <script src="../js/BaseVolume.js"></script>
+
+</head>
+
+<body>
+    <div class="title">Welcome to the the darts world</div>
+
+    <div class="tutorial">
+        <table>
+            <tr>
+                <td class="header" colspan="3">How To Play Darts</td>
+            </tr>
+            <tr class="text">
+                <td>Dart Gripping</td>
+                <td class="design">Throwing Stance</td>
+                <td>Dart Releasing</td>
+            </tr>
+            <tr class="picture">
+                <td>
+                    <!-- htp = how to play -->
+                    <a class="htp" href="Grip.html">
+                        <img src="../src/howto_01.gif" alt="Gripping Tutorial">
+                    </a>
+                </td>
+
+                <td class="design">
+                    <a class="htp" href="Stance.html">
+                        <img src="../src/howto_02.gif" alt="Standing Tutorial">
+                    </a>
+                </td>
+
+                <td>
+                    <a class="htp" href="Release.html">
+                        <img src="../src/howto_03.gif" alt="Release Tutorial">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="game_type">
+        <table>
+            <tr>
+                <td class="header" colspan="3"> Game Type </td>
+            </tr>
+
+            <tr class="text">
+                <td>01 Game</td>
+                <td class="design">Countup</td>
+                <td>Cricket</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a class="btn button" href="01Game.html">
+                        <img src="../src/rule_img_01.gif" alt="01Game">
+                    </a>
+                </td>
+
+                <td class="design">
+                    <a class="btn button" href="Countup.html">
+                        <img src="../src/rule_img_count-up.gif" alt="Countup">
+                    </a>
+                </td>
+
+                <td>
+                    <a class="btn button" href="Cricket.html">
+                        <img src="../src/rule_img_cricket.gif" alt="Cricket">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="equipment">
+        <table>
+            <tr>
+                <td class="header" colspan="3"> Darts Equipment </td>
+            </tr>
+
+            <tr class="text">
+                <td>Darts</td>
+                <td class="design">Dart Board</td>
+                <td>Dart Shop</td>
+            </tr>
+
+            <tr class="picture">
+                <td>
+                    <a class="bigc" href="DartsEquipment.html">
+                        <img src="../src/illustrator_02.png" alt="DartsEquipment">
+                    </a>
+                </td>
+
+                <td class="design">
+                    <a class="bigc" href="DartBoard.html">
+                        <img src="../src/illustrator_01.png" alt="DartBoard">
+                    </a>
+                </td>
+
+                <td>
+                    <a class="bigc" href="https://search.dartslive.com/hk/">
+                        <img src="../src/illustrator_03.png" alt="Dart Shop">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <a href="index.html" class=" floating-btn ">
+        <img src="../src/home.png" alt="">
+    </a>
+
+
+ 
+
+    <div>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label class="label" for="checkbox">
+            <img class="fas fa-moon" src="../src/moon.png">
+
+            <img class="fas fa-sun" src="../src/sun.png">
+
+            <div class="ball"></div>
+        </label>
+    </div>
+    <script src="../js/dark.js"></script>
+
+    <div class="container">
+        <a href="#" class="Quest" id="Quest">Quest</a>
+    </div>
+
+    <div class="popup">
+        <div class="popup-content Qtable QuestFont">
+            <img src="../src/close.png" alt="close" class="close">
+           <form onsubmit=Test()>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        What is your Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="What is your Name" pattern="[a-zA-Z]{1,}" title="Only accept English" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        What is your sex:
+                    </td>
+                    <td class="LR">
+                        Male
+
+                        <input type="radio" value="radiobutton" name="radiobutton" checked>
+                    </td>
+                    <td class="LR">
+                        Female
+
+                        <input type="radio" value="radiobutton" name="radiobutton" >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        Are you satisfied about this website:
+                    </td>
+                    <td>
+                        <select name="select">
+                            <option >Please choose one option</option>
+                            <option value="5" selected>Excellent</option>
+                            <option value="4" >Awesome</option>
+                            <option value="3">Great</option>
+                            <option value="2">Good</option>
+                            <option value="1">Nice</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        Did you play Darts:
+                    </td>
+                    <td class="LR">
+                        Yes
+
+                        <input type="radio" value="radiobutton2" name="radiobutton2" checked>
+                    </td>
+                    <td class="LR">
+                        No
+
+                        <input type="radio" value="radiobutton2" name="radiobutton2">
+                    </td>
+                </tr>
+
+            </table> 
+
+            <div style="display: inline-block;">
+                  <input type="submit" name="Submit" value="Submit">
+            </div>
+
+            <div style="display: inline-block;">
+                <input type="reset" name="Reset" value="Reset">
+            </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("Quest").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "flex";
+        })
+
+        document.querySelector(".close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none"
+        })
+    </script>
+
+    <script>
+    function Test() {
+      alert("The form was submitted");
+    }
+    </script>
+
+
+</body>
+
+</html>
