@@ -32,9 +32,9 @@ body {
     font-size: 80px;
 }
 
-.tutorial img{
-    width: 30px;
-    height: 30px;
+.tutorial  tr td img {
+    height: 170px;
+    width:  170px;
 }
 
 .floating-btn{
